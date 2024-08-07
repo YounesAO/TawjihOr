@@ -1,0 +1,160 @@
+    {
+        "questions": [
+        {
+            "question": "Quelle matière principale avez-vous le plus appréciée ?",
+            "options": ["Comptabilité", "Finance", "Économie", "Gestion"],
+            "answer": ""
+        },
+        {
+            "question": "Dans quelle matière principale avez-vous obtenu les meilleurs résultats ?",
+            "options": ["Comptabilité", "Finance", "Économie", "Gestion"],
+            "answer": ""
+        },
+        {
+            "question": "Y a-t-il des matières principales que vous avez trouvées particulièrement difficiles ou inintéressantes ?",
+            "options": ["Comptabilité", "Finance", "Économie", "Gestion"],
+            "answer": ""
+        },
+        {
+            "question": "Avez-vous une forte aptitude pour les chiffres et la pensée analytique ?",
+            "options": ["Oui", "Non"],
+            "answer": ""
+        },
+        {
+            "question": "Êtes-vous doué pour la résolution de problèmes et la pensée critique ?",
+            "options": ["Oui", "Non"],
+            "answer": ""
+        },
+        {
+            "question": "Comment évaluez-vous vos compétences en communication (écrite et orale) ?",
+            "options": ["Excellentes", "Bonnes", "Moyennes", "Faibles"],
+            "answer": ""
+        },
+        {
+            "question": "Êtes-vous à l'aise avec l'utilisation de logiciels et d'outils liés à la comptabilité et à la gestion (par exemple, Excel, logiciels comptables) ?",
+            "options": ["Oui", "Non"],
+            "answer": ""
+        },
+        {
+            "question": "Avez-vous effectué des stages ou acquis une expérience pratique durant votre programme de BAC ?",
+            "options": ["Oui", "Non"],
+            "answer": ""
+        },
+        {
+            "question": "Si oui, qu'avez-vous apprécié ou dans quoi avez-vous excellé lors de vos stages ou de votre expérience pratique ?",
+            "options": ["Tâches comptables", "Analyse financière", "Activités de gestion", "Tâches de marketing"],
+            "answer": ""
+        },
+        {
+            "question": "Avez-vous un vif intérêt pour la compréhension des marchés financiers et des stratégies d'investissement ?",
+            "options": ["Oui", "Non"],
+            "answer": ""
+        },
+        {
+            "question": "Êtes-vous passionné par la stratégie commerciale et la gestion organisationnelle ?",
+            "options": ["Oui", "Non"],
+            "answer": ""
+        },
+        {
+            "question": "Aimez-vous analyser les états financiers et comprendre la performance des entreprises ?",
+            "options": ["Oui", "Non"],
+            "answer": ""
+        },
+        {
+            "question": "Vous intéressez-vous aux aspects juridiques et réglementaires des affaires et de la comptabilité ?",
+            "options": ["Oui", "Non"],
+            "answer": ""
+        },
+        {
+            "question": "Quel type de carrière envisagez-vous pour votre avenir ?",
+            "options": ["Grande entreprise", "Petite entreprise", "Créer sa propre entreprise"],
+            "answer": ""
+        },
+        {
+            "question": "Envisagez-vous de poursuivre des études supérieures telles qu'un master, un MBA ou des certifications professionnelles (par exemple, CPA, CFA) ?",
+            "options": ["Oui", "Non"],
+            "answer": ""
+        },
+        {
+            "question": "Préférez-vous travailler de manière indépendante ou en équipe ?",
+            "options": ["Indépendamment", "En équipe"],
+            "answer": ""
+        },
+        {
+            "question": "Aimez-vous effectuer des recherches et des analyses approfondies ?",
+            "options": ["Oui", "Non"],
+            "answer": ""
+        },
+        {
+            "question": "Êtes-vous plus intéressé par les connaissances théoriques ou par l'application pratique ?",
+            "options": ["Connaissances théoriques", "Application pratique"],
+            "answer": ""
+        },
+        {
+            "question": "Préférez-vous un environnement de travail structuré ou un cadre plus flexible et dynamique ?",
+            "options": ["Structuré", "Flexible"],
+            "answer": ""
+        },
+        {
+            "question": "Comment gérez-vous le stress et les délais serrés ?",
+            "options": ["Bien", "Modérément", "Mal"],
+            "answer": ""
+        },
+        {
+            "question": "Êtes-vous minutieux et méticuleux dans votre travail ?",
+            "options": ["Oui", "Non"],
+            "answer": ""
+        },
+        {
+            "question": "Aimez-vous apprendre en continu et rester à jour avec les tendances de l'industrie ?",
+            "options": ["Oui", "Non"],
+            "answer": ""
+        }
+        ],
+        "deductions": {
+        "fields": [
+            {
+            "field": "Comptabilité et Finance",
+            "criteria": [
+                {"questionIndex": 0, "answer": "Comptabilité"},
+                {"questionIndex": 1, "answer": "Comptabilité"},
+                {"questionIndex": 3, "answer": "Oui"},
+                {"questionIndex": 4, "answer": "Oui"},
+                {"questionIndex": 10, "answer": "Non"},
+                {"questionIndex": 11, "answer": "Oui"}
+            ]
+            },
+            {
+            "field": "Gestion et Stratégie d'Entreprise",
+            "criteria": [
+                {"questionIndex": 0, "answer": "Gestion"},
+                {"questionIndex": 1, "answer": "Gestion"},
+                {"questionIndex": 4, "answer": "Oui"},
+                {"questionIndex": 10, "answer": "Oui"},
+                {"questionIndex": 14, "answer": "Oui"}
+            ]
+            },
+            {
+            "field": "Marketing et Ventes",
+            "criteria": [
+                {"questionIndex": 2, "answer": "Économie"},
+                {"questionIndex": 5, "answer": "Excellentes"},
+                {"questionIndex": 6, "answer": "Oui"},
+                {"questionIndex": 10, "answer": "Oui"},
+                {"questionIndex": 18, "answer": "Flexible"}
+            ]
+            },
+            {
+            "field": "Économie et Analyse",
+            "criteria": [
+                {"questionIndex": 0, "answer": "Économie"},
+                {"questionIndex": 1, "answer": "Économie"},
+                {"questionIndex": 3, "answer": "Oui"},
+                {"questionIndex": 11, "answer": "Oui"},
+                {"questionIndex": 17, "answer": "Connaissances théoriques"}
+            ]
+            }
+        ]
+        }
+    }
+    
