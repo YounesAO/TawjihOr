@@ -95,3 +95,6 @@
 .bg-highlight {
   background-color: #f0732b;
 }
+.text-red-500 {
+  color: #f87171; /* Tailwind's red color for error messages */
+}
